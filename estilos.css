@@ -94,8 +94,7 @@ img::selection{
 
   .carousel-caption {
     text-shadow: 1px 2px 5px rgb(0, 0, 0) !important;
-  }  
-
+  } 
 .separador {
   height: 2px !important;
 width: 100%;
@@ -568,8 +567,6 @@ display: none;
 .activeline3__bars-menu{
     transform: rotate(-45deg) translate(-4px, 2px);
 }
-
-
 
 .contenido1 {
   display: flex;
