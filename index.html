@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+     
+    <link rel="stylesheet" href="estilos.css">
+    
+      <link rel="stylesheet" href="normalaizer.css">
+      <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/c3e35c9737.js" ></script>
+    
+   <script src="wow.min.js"></script>
+   
+  <script>
+  new WOW().init();
+  </script>
+  
+<title>Menu desplegable</title>
+</head>
+<body>
+    <div id="inicio" class="flexbox">
+        <ul class="lista">
+            <li  class="hover1"><a href=""><i style="width: 13px; margin-left: 14px;" class="fa-brands fa-facebook-f"></i></a></li>
+           <li class="hover2"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+           <li class="hover3"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+           <li class="hover4"><a href=""><i class="fa fa-whatsapp"></i></a></li>
+        </ul>
+       
+        <div class="numeros">
+          
+               <div>
+                <i style="margin-right: 7px;" class="fa fa-phone" ></i>
+               </div> 
+                
+            
+            
+        <div>
+            <p >Números Telefónicos: (0412785356) - (0414804235)</p>
+        </div>
+    </div>
+
+<div class="location">
+    <div><i style="margin-right: 7px" class="fa-solid fa-location-dot"></i></div>
+    
+    <div><p>Ubicación: United States - San Francisco 94016</p></div>
+</div>
+
+ </div>
+
+    <nav class="menu">
+        <section class="menu__container">
+            <a href="#" class="menu-logo"><img src="assets/Seguros Vitae.png" style="height: 45px;" alt=""></a>
+
+            <ul class="menu__links">
+                <li class="menu__item">
+                    <a href="#inicio" class="menu__link">Inicio</a>
+                </li>
+    
+                <li class="menu__item">
+                    <a href="#nosotros" class="menu__link">Nosotros </a>
+    
+                    
+    
+                <li class="menu__item  menu__item--show">
+                    <a href="#polizas" class="menu__link">Pólizas <img src="assets/arrow.svg" class="menu__arrow"></a>
+    
+                    
+                    <ul class="menu__nesting">
+                      <li class="menu__inside">
+                          <img class="menuimg1" src="assets/coramenu.png" style="height:  28px;" alt="">
+                          <a href="vidasec.html" class="menu__link menu__link--inside">Póliza De Vida </a>
+                          
+                      </li>
+                      <li class="menu__inside">
+                          <img class="menuimg2" src="assets/huchamenu.png" style="height: 25px;">
+                          <a href="ahorrosec.html" class="menu__link menu__link--inside">Póliza de ahorro</a>
+                        
+                      </li>
+                      <li class="menu__inside">
+                          <img class="menuimg3" src="assets/saludmenu.png" style="height: 25px; " alt="">
+                          <a href="saludsec.html" class="menu__link menu__link--inside">Póliza de salud</a>
+                          
+                      </li>
+                      <li class="menu__inside">
+                          <img class="menuimg4" src="assets/hogarmenu.png" style="height: 25px;  " alt="">
+                          <a href="hogarsec.html" class="menu__link  menu__link--inside" >Póliza de Hogar</a>
+                          
+                      </li>
+                      <li class="menu__inside">
+                          <img class="menuimg5" src="assets/cochemenu.png" style="height: 25px;" alt="">
+                          <a href="autosec.html" class="menu__link menu__link--inside" >Póliza de vehiculo</a>
+                          
+                      </li>
+                      <li class="menu__inside">
+                          <img class="menuimg6" src="assets/seguro-de-viaje menu.png" style="height: 25px; " alt="">
+                          <a href="viajesec.html" class="menu__link menu__link--inside">Póliza de viajes</a>
+                          
+                      </li> 
+                      <li class="menu__inside">
+                          <img class="menuimg7" src="assets/ladronmenu.png" style="height: 25px; " alt="">
+                          <a href="robosec.html" class="menu__link menu__link--inside">Póliza de robo</a>
+                          
+                      </li>
+                      <li class="menu__inside">
+                          <img class="menuimg8" src="assets/gorramenu.png" style="height: 25px;   " alt="">
+                          <a href="estudiantilsec.html" class="menu__link menu__link--inside">Póliza estudiantil</a>
+                          
+                      </li>                       
+                  </ul>
+                </li>
+    
+                <li class="menu__item">
+                    <a href="#ubicacion" class="menu__link">Ubicación</a>
+                </li>
+
+                <li class="menu__item">
+                    <a href="#contacto" class="menu__link">Contacto</a>
+                </li>
+                
+                <div id="inicio" class="flexbox2">
+                    <ul class="lista">
+                        <li  class="hover1"><a href=""><i style="width: 13px; margin-left: 14px;" class="fa-brands fa-facebook-f"></i></a></li>
+                       <li class="hover2"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                       <li class="hover3"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                       <li class="hover4"><a href=""><i class="fa fa-whatsapp"></i></a></li>
+                    </ul>
+                   
+                    <div class="numeros">
+                      
+                           <div>
+                            <i style="margin-right: 7px;" class="fa fa-phone" ></i>
+                           </div> 
+                            
+                        
+                        
+                    <div>
+                        <p >Números Telefónicos (0412785356) - (0414804235)</p>
+                    </div>
+                </div>
+
+                <div class="location">
+                    <div><i style="margin-right: 7px" class="fa-solid fa-location-dot"></i></div>
+                    
+                    <div><p>Ubicación: United States - San Francisco 94016</p></div>
+                </div>
+                
+
+            </ul>
+
+
+            <div class="menu__hamburguer">
+                
+        <span class="line1__bars-menu"></span>
+        <span class="line2__bars-menu"></span>
+        <span class="line3__bars-menu"></span>
+    </div>
+        </section>
+
+      
+    </nav>
+
+    <div  id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause=false data-bs-touch="true">
+        <div class="carousel-indicators" style="display: none;">
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+         </div>
+         <div class="carousel-inner " >
+           <div class="carousel-item active textomove"  data-bs-interval="13000">
+             <img src="/imagenes/portada1 (2).jpg" class="d-block w-100" alt="...">
+             <div class="carousel-caption d-none d-md-block numerodos">
+                 <h1  class="animate__animated animate__fadeInDown portadacentrado" style="animation-delay: 1.2s;">
+                     El Mejor Seguro <span class="color1">Para Ti</span>  
+                   </h1>
+                   <hr class="separador animate__animated animate__fadeInLeft" style="animation-delay: 1s;" >
+              
+                   <p  class="parrafo1 animate__animated animate__fadeInDown" style="animation-delay: 1.5s;">
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, adipisci unde! Et quas quis ipsum assumenda hic quaerat maxime consectetur at, quisquam molestias sed, eos nulla. Nemo optio commodi eaque?
+                   </p>
+                   
+ 
+ 
+                   <section class="links1 animate__animated animate__fadeInDown" style="animation-delay: 2.3s;">
+                     <a class="link l4" href="#" value="Saber Más"></a>
+                     <a class="link l4" href="#" value="Contacto"></a>
+                   </section>
+                   
+ 
+                   
+             </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="13000">
+             <img src="imagenes/bienvenido02.png" class="d-block w-100" alt="...">
+             <div class="carousel-caption1 d-none d-md-block">
+               <h1  class="animate__animated animate__fadeInDown prueba" style="animation-delay: 1s; ">
+                 El Mejor Seguro <span class="color1">Para Ti</span>  
+               </h1>
+               <hr class="separador1 animate__animated animate__fadeInLeft" style="animation-delay: 1.2s;">
+          
+               <p  class=" parrafo animate__animated animate__fadeInDown" style="animation-delay: 1.5s;">
+                 Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                 duo justo magna dolore erat amet
+               </p>
+               
+ 
+ 
+               <section class="links animate__animated animate__fadeInDown" style="animation-delay: 2.3s; ">
+                 <a class="link l4" href="#" value="Saber Más"></a>
+                 <a class="link l4" href="#" value="Contacto"></a>
+               </section>
+ 
+             </div>
+           </div>
+           <div class="carousel-item" data-bs-interval="13000">
+             <img src="imagenes/abuelos.png" class="d-block w-100" alt="...">
+             <div class="carousel-caption2 d-none d-md-block">
+               <h1  class="animate__animated animate__fadeInDown " style="animation-delay: 1s; font-family: 'Poppins', sans-serif;">
+                 El Mejor Seguro <span class="color1">Para Ti</span>  
+               </h1>
+               <hr  class="separador2 animate__animated animate__fadeInRight" style="animation-delay: 1.2s;" >
+          
+               <p  class="parrafo2 animate__animated animate__fadeInDown" style="animation-delay: 1.5s;">
+                 Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                 duo justo magna dolore erat amet
+               </p>
+               
+ 
+ 
+               <section class="links animate__animated animate__fadeInDown" style="animation-delay: 2.3s;">
+                 <a class="link l4" href="#" value="Saber Más"></a>
+                 <a class="link l4" href="#" value="Contacto"></a>
+               </section>
+               
+ 
+             </div>
+             
+           </div>
+           <div class="carousel-item" data-bs-interval="13000">
+             <img src="imagenes/bienvenida17.png" class="d-block w-100" alt="...">
+             <div class="carousel-caption1 d-none d-md-block">
+               <h1  class="animate__animated animate__fadeInDown prueba" style="animation-delay: 1s;">
+                 El Mejor Seguro <span class="color1">Para Ti</span>  
+               </h1>
+               <hr class="separador1 animate__animated animate__fadeInLeft" style="animation-delay: 1.2s;">
+          
+               <p  class="parrafo animate__animated animate__fadeInDown" style="animation-delay: 1.5s;">
+                 Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                 duo justo magna dolore erat amet
+               </p>
+               
+ 
+ 
+               <section class="links animate__animated animate__fadeInDown" style="animation-delay: 2.3s;">
+                 <a class="link l4" href="#" value="Saber Más"></a>
+                 <a class="link l4" href="#" value="Contacto"></a>
+               </section>
+ 
+             </div>
+             
+             
+           </div>
+ 
+           <div class="carousel-item" data-bs-interval="13000">
+             <img src="imagenes/familia.png" class="d-block w-100" alt="...">
+             <div class="carousel-caption1 d-none d-md-block">
+               <h1  class="animate__animated animate__fadeInDown prueba" style="animation-delay: 1s;">
+                 El Mejor Seguro <span class="color1">Para Ti</span>  
+               </h1>
+               <hr class="separador animate__animated animate__fadeInLeft" style="animation-delay: 1.2s;">
+          
+               <p  class="parrafo animate__animated animate__fadeInDown" style="animation-delay: 1.5s;">
+                 Clita erat ipsum et lorem et sit, sed stet lorem sit clita
+                 duo justo magna dolore erat amet
+               </p>
+               
+ 
+ 
+               <section class="links animate__animated animate__fadeInDown" style="animation-delay: 2.3s;">
+                 <a class="link l4" href="#" value="Saber Más"></a>
+                 <a class="link l4" href="#" value="Contacto"></a>
+               </section>
+ 
+             </div>
+           </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+           <span class="visually-hidden">Next</span>
+         </button>
+       </div>
+
+
+       <section id="nosotros" class="secciones" style="background-color: white;">
+        <div class="contenido1">
+        <div style="display: block;" class="about">
+        <div class="separador3 animate__animated wow animate__fadeInLeftBig" style="animation-delay:0s; animation-duration: 2s;">
+          <hr>
+          <h5> Nosotros</h5>
+        </div>
+        <div>
+          <h1>Bienvenido A Nuestra Compañia De Seguros</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae dolorum veniam, sed, mollitia saepe, rem suscipit incidunt harum animi velit quos voluptatibus tempora repellat quaerat laborum. Tenetur dolor expedita ducimus!
+          </p>
+          <br>
+        </div>
+          <div class="listas1">
+            <div>
+              <ul class="lista1">
+                <li><i class="fa-solid fa-check"></i> <b>Seguridad de vida</b></li>
+                <li><i class="fa-solid fa-check"></i> <b>Seguridad de ahorros</b></li>
+                <li><i class="fa-solid fa-check"></i> <b>Salud y bienestar</b></li>
+              </ul>
+            </div>
+            <div>
+              <ul class="lista1">
+                <li><i class="fa-solid fa-check"></i> <b>Seguridad de vida</b></li>
+                <li><i class="fa-solid fa-check"></i> <b>Seguridad de ahorros</b></li>
+                <li><i class="fa-solid fa-check"></i> <b>Salud y bienestar</b></li>
+              </ul>
+            </div>
+          </div>
+          <div class="medallas"> 
+          <div class="medalla">
+            <div class="backgroundmedalla">
+              <img class="medal" src="imagenes/medal1.png" alt="">
+              
+            </div>
+            <div class="counter contador1 ">
+              <span class="contador_cantidad1" data-cantidad-total="30">0</span><p><b>Años Experiencia</b></p>
+            </div>
+          </div> 
+          <div class="medalla2">
+            <div class="backgroundmedalla">
+              <img class="medal" src="imagenes/group.png" alt="">
+              
+            </div>
+            <div class="counter contador ">
+              <span class="contador_cantidad" data-cantidad-total="24620">0</span> <p><b>Clientes Asegurados</b></p>
+            </div>     
+           </div>
+          </div>      
+
+        
+
+             
+        </div>
+        <div class="imagenes-contenido1">
+        <div class="imgzoom1">
+          <img  class=" imgzoom animate__animated wow animate__fadeInDown" src="imagenes/aboutphoto1.png" alt="">
+         </div>
+         <div class="imgzoom2" >
+          <img  class=" imgzoom2-1 animate__animated wow animate__fadeInUp" src="imagenes/aboutphoto2.png">
+         </div>
+      
+    </div>
+  </div>
+     </section>
+
+
+     <div class="container-fluid my-5" id="polizas" style="position:relative; top:100px;">
+      <h1 class="text-center fw-bold display-1 mb-5 textopol"><span class="borde">Nuestras Pólizas</span></h1><i></i>
+      <br>
+      <div class="row" >
+          <div class="col-12 m-auto">
+              <div  class="owl-carousel owl-theme" >
+                  <div class="item mb-4" >
+                      <div id="sub" class=" ejemplo1 card border-0 shadow">
+                          <a class="btn-img btn-img-gradient">
+                          <img class="img1 img-fluid" src="imagenes/corazon.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="vidasec.html" class="front">
+                <img src="imagenes/heart.png" alt="">
+                                    </a>
+                  <a href="vidasec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="vidasec.html"><p  class="selector1">Vida</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="item">
+                      <div id="sub2" class=" ejemplo2 card border-0 shadow">
+                          <a href="#" class="btn-img btn-img-gradient">
+                          <img class="img2 img-fluid" src="imagenes/ahorro.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="ahorrosec.html" class="front">
+                <img src="imagenes/hucha.png" alt="">
+                                    </a>
+                  <a href="ahorrosec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="ahorrosec.html"><p   class="selector2">Ahorro</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item mb-4">
+                      <div id="sub3" class=" ejemplo3 card border-0 shadow">
+                          <a href="" class="btn-img btn-img-gradient">
+                          <img class="img3 img-fluid" src="imagenes/doctora.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="saludsec.html" class="front">
+                <img src="imagenes/salud.png" alt="">
+                                    </a>
+                  <a href="saludsec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="saludsec.html"><p  class="selector3">Salud</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div id="sub4" class=" ejemplo4 card border-0 shadow">
+                          <a href="#" class="btn-img btn-img-gradient">
+                          <img class="img4 img-fluid" src="imagenes/casa.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="hogarsec.html" class="front">
+                <img src="imagenes/Hogar.png" alt="">
+                                    </a>
+                  <a href="hogarsec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="hogarsec.html"><p  class="selector4">Hogar</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div id="sub5" class=" ejemplo5 card border-0 shadow">
+                          <a href="#" class="btn-img btn-img-gradient">
+                          <img class="img5 img-fluid" src="imagenes/accidente.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="autosec.html" class="front">
+                <img src="imagenes/auto.png" alt="">
+                                    </a>
+                  <a href="autosec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="autosec.html"><p  class="selector5">Vehiculo</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div id="sub6" class=" ejemplo6 card border-0 shadow">
+                          <a href="" class="btn-img btn-img-gradient">
+                          <img class="img6 img-fluid" src="imagenes/aeropuerto.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="viajesec.html" class="front">
+                <img src="imagenes/seguro-de-viaje.png" alt="">
+                                    </a>
+                  <a href="viajesec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="viajesec.html"><p  class="selector6">Viaje</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div id="sub7" class=" ejemplo7 card border-0 shadow">
+                          <a href="" class="btn-img btn-img-gradient">
+                          <img class="img7 img-fluid" src="imagenes/robo.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="robosec.html" class="front">
+                <img src="imagenes/ladron.png" alt="">
+                                    </a>
+                  <a href="robosec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="robosec.html"><p  class="selector7">Robo</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+                  <div class="item">
+                      <div id="sub8" class=" ejemplo8 card border-0 shadow">
+                          <a href="estudiantilsec.html" class="btn-img btn-img-gradient">
+                          <img class="img8 img-fluid" src="imagenes/estudiantes.png" alt="" class="card-img-top">
+                      </a>
+                          <div class="card-body">
+              <div class="card1">
+                <div class="content">
+                  <a href="estudiantilsec.html" class="front">
+                <img src="imagenes/gorra.png" alt="">
+                                    </a>
+                  <a href="estudiantilsec.html" class="back">
+                                      <img src="imagenes/arrow-right (2).png" alt="">
+                                    </a>
+                </div>
+                </div>
+                              <div class="card-title text-center">
+                                  <p class="type">Seguro</p>
+                                  <a href="estudiantilsec.html"><p  class="selector8">Estudiantil</p></a>
+                                  <hr id="polhr">              
+                              </div>                               
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
+          </div>
+      </div>
+  </div>
+
+  
+  
+
+  <section id="ubicacion" class="secciones" style="background-color: rgb(255, 255, 255);">
+   
+    
+    <div class="ubicación">
+      <h1 class="title3">Ubicación</h1>
+     <div class="container4">
+        <div class="mapayinfo">
+    <div class="mapa">
+        <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d788.4142571513704!2d-122.41906735928444!3d37.77463937580242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sve!4v1666457617182!5m2!1ses!2sve" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="info">
+        <div class="subcontainer4">
+            <div class="textoubicacion">
+              <h2><i>Nuestra Ubicación</i></h2>
+              <br>
+          <br>
+          <div class="ubicaciondot">
+          <i class="fa-solid fa-location-dot"></i>
+              <p>	1 Carlton B. Goodlett Place
+                San Francisco CA 94102
+                United States</p>
+              </div>
+            </div>
+            <div class="textoubicacion second">
+              <h2><i>Contáctenos</i></h2>
+              <br>
+          <br>
+          <div class="ubicaciondot1">
+            <div class="telefonicomap">
+              <i class="fa-solid fa-phone"></i>
+              <p>	(0412785356) - (0414804235)</p>
+              </div>
+              <br>
+              <br>
+              
+              <div class="emailmap">
+                <i class="fa-solid fa-envelope"></i>
+              <p>	segurosvitae@gmail.com</p>
+              </div>
+              </div>
+            </div>
+            </div>
+    </div>
+        </div>
+        <div class="img">
+            <img class="ubicacionimg" style="height: 780px; width: 520px;" src="imagenes/Diseño sin título (4) (1).png" alt="">
+        </div>
+     </div>
+    </div>
+  </section>
+
+
+
+<div id="achievements" style=""> 
+  <div class="overlay">
+    <div class="slogan">
+      
+        <p>PORQUE SU SEGURIDAD,</p><p><b class="gruesa">ES NUESTRA PRIORIDAD</b></p>
+     
+    </div>
+    <div class="container">      
+     
+    </div>
+  </div>
+ </div>
+
+   <section id="contacto" class="secciones" style="background-color: white; margin-top: 200px;">
+    <h1 class="title2">Contacto</h1>
+    <img class="contactoimg" src="imagenes/Diseño sin título (2).png" alt="">
+   
+    <div class="containers1">
+     
+      
+      
+      <form class="formulario">
+        
+        <div class="group">      
+          <input type="text" required>
+          <span class="highlight nombre"></span>
+          <span class="bar"></span>
+          <label>Nombre</label>
+        </div>
+          
+        <div class="group">      
+          <input type="text" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Apellido</label>
+        </div>
+
+        <div class="group">      
+          <input type="text" required>
+          <span class="highlight"></span>
+          <span class="bar"></span>
+          <label>Correo</label>
+        </div>
+
+
+
+
+        <div class="group"> 
+          <div class="form__group1">
+            <textarea id="message1" class="form__field1" placeholder="Your Message" rows="6"></textarea>
+            <label for="message1" class="form__label1">Tu Mensaje</label>
+          </div>
+        </div>
+        
+        <div class="group1 button"> 
+         <!-- HTML !-->
+<button class="button-57" role="button"><span class="text">ENVIAR</span><span>ENVIAR</span></button>
+
+
+          
+        </div>
+      </form>    
+</section>
+
+
+
+
+<footer class="footer-20192">
+  <div class="cta d-block d-md-flex align-items-center px-4">
+    
+    <div>
+      <div><img src="imagenes/acuerdo.png" alt=""></div>
+      <h2 class="mb-0">AFILIADOS</h2>
+      <h3 class="text-dark">Clínicas</h3>
+      <h3 class="text-dark">Atención Primaria</h3>
+      <h3 class="text-dark">Especialidades</h3>
+      <h3 class="text-dark">Farmacias</h3>
+      <h3 class="text-dark">Funerarias</h3>
+    </div>
+    <div>
+      <div><img src="imagenes/servicio-al-cliente.png" alt=""></div>
+      <h2 class="mb-0">ATENCIÓN AL CLIENTE</h2>
+      <h3 class="text-dark" style="color: yellow !important; font-weight: 700">¿Tienes una emergencia?</h3>
+      <h3 class="text-dark">De lunes a viernes 8:00 a.m. – 5:00 p.m.</h3>
+      <h3 class="text-dark">Sábados 8:00 a.m. – 4:30 p.m.</h3>
+      <h3 class="text-dark">Números Telefónicos (0412785356) - (0414804235)</h3>
+      <h3 class="text-dark">Email: segurosvitae@gmail.com</h3>
+    </div>
+    <div class="ml-auto">
+      <h2 class="mb-0">¿NECESITAS UNA PÓLIZA?</h2>
+      <BR></BR>
+      <a href="#" class="btn btn-dark">CONTÁCTANOS</a>
+    </div>
+  </div>
+      
+  <div class="">
+    <div class="card">
+        <div class="row mb-4">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+                <div class="footer-text pull-left">
+                    <div class="d-flex">
+                      <img src="assets/Seguros Vitae.png" style="height: 45px; margin-bottom: 25px;" alt="">
+                    </div>
+                    <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi non pariatur numquam animi nam at impedit odit nisi.</p>
+                  </div>
+                    <div class="social mt-2 mb-3">
+
+                      <div id="inicio" class="flexboxfooter">
+                        <ul class="listafooter">
+                            <li  class="hover1"><a href=""><i style="width: 13px; padding-left: 3px;" class="fa-brands fa-facebook-f"></i></a></li>
+                           <li class="hover2"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                           <li class="hover3"><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                           <li class="hover4"><a href=""><i class="fa fa-whatsapp"></i></a></li>
+                        </ul>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-2"></div>
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <h5 class="heading">Texto</h5>
+                <ul>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <h5 class="heading">Texto</h5>
+                <ul class="card-text">
+                    <li>Texto</li>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                </ul>
+
+                
+
+            </div>
+            <div class="col-md-2 col-sm-2 col-xs-2">
+                <h5 class="heading1">Texto</h5>
+                <ul class="card-text">
+                    <li>Texto</li>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                    <li>Texto</li>
+                </ul>
+            </div>
+        </div>
+        <div class="divider mb-4"> </div>
+        <div class="row" style="font-size:10px;">
+            <div class="col-md-6 col-sm-6 col-xs-6">
+                <div class="pull-left">
+                    <p><i class="fa fa-copyright"></i> Derechos Reservados Seguros Vitae 2022-2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</footer>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: false,
+            
+            margin: 25,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                540: {
+                    items: 2
+                },
+                900: {
+                    items: 3
+                },
+                1200: {
+                    items: 4
+                }
+            }
+        })
+    
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
