@@ -92,9 +92,9 @@ img::selection{
     background-size: 100vw 100vh;
   }
 
- .numerodos {
-  text-shadow: 1px solid black;
- } 
+  .carousel-caption {
+    text-shadow: 1px 2px 5px rgb(0, 0, 0) !important;
+  }  
 
 .separador {
   height: 2px !important;
