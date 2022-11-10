@@ -92,6 +92,10 @@ img::selection{
     background-size: 100vw 100vh;
   }
 
+ .numerodos {
+  text-shadow: 1px solid black;
+ } 
+
 .separador {
   height: 2px !important;
 width: 100%;
@@ -564,6 +568,8 @@ display: none;
 .activeline3__bars-menu{
     transform: rotate(-45deg) translate(-4px, 2px);
 }
+
+
 
 .contenido1 {
   display: flex;
