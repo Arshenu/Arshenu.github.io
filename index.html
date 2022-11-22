@@ -662,24 +662,24 @@
      
       
       
-      <form class="formulario">
+      <form class="formulario" action="correos.php" method="POST">
         
         <div class="group">      
-          <input type="text" required>
+          <input type="text" name="nombre" required>
           <span class="highlight nombre"></span>
           <span class="bar"></span>
           <label>Nombre</label>
         </div>
           
         <div class="group">      
-          <input type="text" required>
+          <input type="text" name="apellido" required>
           <span class="highlight"></span>
           <span class="bar"></span>
           <label>Apellido</label>
         </div>
 
         <div class="group">      
-          <input type="text" required>
+          <input type="text" name="email" required>
           <span class="highlight"></span>
           <span class="bar"></span>
           <label>Correo</label>
@@ -690,7 +690,7 @@
 
         <div class="group"> 
           <div class="form__group1">
-            <textarea id="message1" class="form__field1" placeholder="Your Message" rows="6"></textarea>
+            <textarea id="message1" class="form__field1" placeholder="Your Message" name="mensaje" rows="6" required></textarea>
             <label for="message1" class="form__label1">Tu Mensaje</label>
           </div>
         </div>
