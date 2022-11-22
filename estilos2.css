@@ -743,3 +743,15 @@ footer .heading1 {
   padding: 30px 0 0px 0;
 }
 }
+
+@media (max-width: 508px) {
+    footer .card {
+      height: 800px !important;
+    }
+}
+
+@media (max-width: 324px) {
+    footer .card {
+      height: 850px !important;
+    }
+}
